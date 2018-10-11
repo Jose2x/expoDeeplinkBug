@@ -25,8 +25,8 @@ export default class App extends React.Component {
 		return (
 			<View style={styles.container}>
 				<Text style={{ padding: 20, textAlign: 'center' }}>{`Run this: \n adb shell am start -a android.intent.action.VIEW -d "${makeUrl}"`}</Text>
-				<Text style={{ padding: 20, textAlign: 'center' }}>x: {this.state.initial}</Text>
-				<Text style={{ padding: 20, textAlign: 'center' }}>y: {this.state.next}</Text>
+				<Text style={{ padding: 20, textAlign: 'center' }}>init: {this.state.initial}</Text>
+				<Text style={{ padding: 20, textAlign: 'center' }}>next: {this.state.next}</Text>
 			</View>
 		);
 	}
